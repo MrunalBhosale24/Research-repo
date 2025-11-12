@@ -1,4 +1,10 @@
 {
+  "scripts": {
+    "dev": "npm --prefix server run dev",
+    "start": "npm --prefix server start",
+    "client": "npm --prefix client start",
+    "frontend": "npm --prefix client/frontend start"
+  },
   "dependencies": {
     "dotenv": "^17.2.2",
     "mongoose": "^8.18.2"
